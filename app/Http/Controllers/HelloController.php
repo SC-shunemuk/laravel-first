@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class HelloController extends Controller
 {
-    public function index(){
+    public function index() {
 
-        return <<< EOF
+        return <<<EOF
     <html>
     <head>
     <title>Hello/Index</title>
@@ -25,4 +25,4 @@ class HelloController extends Controller
     </html>
     EOF;
         }
-    }
+}
